@@ -1,3 +1,5 @@
+El proyecto consiste en una aplicación de quedadas.
+
 Para arrancar el server:
 npm run start
 
