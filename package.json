@@ -1,0 +1,29 @@
+{
+    "name": "16-10-2023",
+    "version": "1.0.0",
+    "description": "Implementar una API de quedadas.",
+    "main": "index.js",
+    "scripts": {
+        "db": "node db/initDb.js",
+        "dev": "nodemon server.js",
+        "populateDb": "node db/populateDb.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.1",
+        "joi": "^17.11.0",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^2.3.3",
+        "node-mailjet": "^6.0.4",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
